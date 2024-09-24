@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Basics -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Favicon -->
+    <link
+      rel="shortcut icon"
+      href="./assets/icons/amirulkanak.ico"
+      type="image/x-icon" />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap"
+      rel="stylesheet" />
+
+    <!-- Main CSS File -->
+    <link rel="stylesheet" href="assets/css/style.css" />
+
+    <!-- Page Tittle -->
+    <title>Donate Bangladesh</title>
+
+    <!-- =======================================================
+    * Name: Donate Bangladesh Landing Page
+    * Updated: September 24 2024
+    * Developer: Md. Mostakim Billah Sadonation-historyin
+    * Github: https://github.com/Mustakim-Sadin
+    * Credits: Programming Hero Module-29 (Assignment-5) web.programming-hero.com
+    ======================================================== -->
+  </head>
+  <body class="flex flex-col min-h-screen">
+    <header id="header-section" class="sticky top-0 z-10">
+      <!-- Navigation -->
+      <nav id="navbar" class="bg-cl-ultra-pure-white">
+        <div
+          class="wrapper py-8 flex flex-col items-center gap-y-4 md:flex-row md:justify-between">
+          <!-- blog button -->
+          <a
+            href="blog.html"
+            class="da-btn no-animation order-3 md:order-1 w-[6.875rem] bg-cl-inchworm rounded-lg text-cl-dreamless-sleep text-[1.25rem] leading-[1.563rem] font-semibold hover:bg-cl-inchworm/70 hover:border-cl-dreamless-sleep/30">
+            Blog
+          </a>
+
+          <!-- logo -->
+          <div class="order-1 md:order-2 flex items-center gap-4">
+            <img
+              class="size-12"
+              src="./assets/icons/logo.png"
+              alt="Donation Icon" />
+            <h1
+              class="text-cl-dreamless-sleep text-[1.25rem] leading-[1.563rem] font-semibold">
+              Donate Bangladesh
+            </h1>
+          </div>
+
+          <!-- account balance -->
+          <div class="order-2 md:order-3 flex items-center gap-3">
+            <img
+              class="size-7"
+              src="./assets/icons/coin.png"
+              alt="Dollar coin" />
+            <div
+              class="text-cl-dreamless-sleep/70 text-[1.25rem] leading-[1.563rem] font-medium">
+              <span id="users-balance">15000</span> BDT
+            </div>
+          </div>
+        </div>
+      </nav>
+      <!-- Navigation end -->
+
+      <!-- Donation and History button -->
+      <div
+        id="donation-history-btn-container"
+        class="wrapper mt-8 md:mt-14 pc:mt-20 mb-8 flex flex-col items-center xs:flex-row xs:justify-center gap-4">
+        <!-- donation btn -->
+        <button
+          id="donation-btn"
+          class="da-btn no-animation w-[9.8125rem] h-[3.5625rem] rounded-lg text-[1.25rem] leading-[1.563rem] font-semibold donation-history-btn-active">
+          Donation
+        </button>
+
+        <!-- history btn -->
+        <button
+          id="history-btn"
+          class="da-btn no-animation w-[9.8125rem] h-[3.5625rem] rounded-lg text-[1.25rem] leading-[1.563rem] font-medium donation-history-btn-inactive">
+          History
+        </button>
+      </div>
+      <!-- Donation and History button end -->
+    </header>
+
+    <main>
+      <!-- Donation cards -->
+      <section id="donation-section">
+        <div class="wrapper px-4 space-y-8 mb-20">
+          <!-- Flood Donation Noakhali -->
+          <div
+            class="max-w-[71.25rem] p-3 sm:p-5 pc:p-8 flex flex-col lg:flex-row gap-3 sm:gap-5 pc:gap-8 bg-white rounded-2xl border border-solid border-cl-dreamless-sleep/10 shadow-xl">
+            <img
+              class="max-w-full h-auto"
+              src="./assets/images/noakhali.png"
+              alt="Flood In Noakhali" />
+
+            <div class="flex flex-col items-start gap-4">
+              <div
+                class="w-fit px-4 py-[0.62rem] flex items-center gap-2 bg-cl-dreamless-sleep/5 rounded-lg">
+                <img
+                  class="size-7"
+                  src="./assets/icons/coin.png"
+                  alt="Dollar coin" />
+                <span class="donation-amount">145000</span>
+                BDT
+              </div>
+              <h2
+                class="donation-card-title text-[1.25rem] leading-[1.875rem] font-bold text-cl-dreamless-sleep">
+                Donate for Flood at Noakhali, Bangladesh
+              </h2>
+              <p
+                class="mb-2 text-left text-[1rem] leading-[1.625rem] text-cl-dreamless-sleep/70 font-light">
+                The recent floods in Noakhali have caused significant damage to
+                homes infrastructure. Your donation will help provide essential
+                supplies and to those affected by this disaster. Every
+                contribution, big or small, makes difference. Please join us in
+                supporting the relief efforts and making a positive impact on
+                the lives of those in need.
+              </p>
+              <input
+                type="text"
+                placeholder="Write Donation Amount"
+                class="donation-amount-input da-input da-input-bordered rounded-lg w-full h-[3.5rem]" />
+              <button
+                class="donate-btn da-btn no-animation w-full h-[3.5625rem] rounded-lg text-[1.25rem] leading-[1.563rem] font-semibold bg-cl-inchworm text-cl-dreamless-sleep hover:bg-cl-inchworm/70 hover:border-cl-dreamless-sleep/30">
+                Donate Now
+              </button>
+            </div>
+          </div>
+
+          <!-- Flood Donation Fenni -->
+          <div
+            class="max-w-[71.25rem] p-3 sm:p-5 pc:p-8 flex flex-col lg:flex-row gap-3 sm:gap-5 pc:gap-8 bg-white rounded-2xl border border-solid border-cl-dreamless-sleep/10 shadow-xl">
+            <img
+              class="max-w-full h-auto"
+              src="./assets/images/feni.png"
+              alt="Flooded Area Fenni" />
+
+            <div class="flex flex-col items-start gap-4">
+              <div
+                class="w-fit px-4 py-[0.62rem] flex items-center gap-2 bg-cl-dreamless-sleep/5 rounded-lg">
+                <img
+                  class="size-7"
+                  src="./assets/icons/coin.png"
+                  alt="Dollar coin" />
+                <span class="donation-amount">300000</span>
+                BDT
+              </div>
+              <h2
+                class="donation-card-title text-[1.25rem] leading-[1.875rem] font-bold text-cl-dreamless-sleep">
+                Donate for Flood Relief in Feni, Bangladesh
+              </h2>
+              <p
+                class="mb-2 text-left text-[1rem] leading-[1.625rem] text-cl-dreamless-sleep/70 font-light">
+                The recent floods in Feni have devastated local communities,
+                leading to severe disruption and loss. Your generous donation
+                will help provide immediate aid, including food, clean water,
+                and medical supplies, to those affected by this calamity.
+                Together, we can offer crucial support and help rebuild lives in
+                the aftermath of this disaster. Every contribution counts
+                towards making a real difference. Please consider donating today
+                to assist those in urgent need.
+              </p>
+              <input
+                type="text"
+                placeholder="Write Donation Amount"
+                class="donation-amount-input da-input da-input-bordered rounded-lg w-full h-[3.5rem]" />
+              <button
+                class="donate-btn da-btn no-animation w-full h-[3.5625rem] rounded-lg text-[1.25rem] leading-[1.563rem] font-semibold bg-cl-inchworm text-cl-dreamless-sleep hover:bg-cl-inchworm/70 hover:border-cl-dreamless-sleep/30">
+                Donate Now
+              </button>
+            </div>
+          </div>
+
+          <!-- Quota Movement Donation -->
+          <div
+            class="max-w-[71.25rem] p-3 sm:p-5 pc:p-8 flex flex-col lg:flex-row gap-3 sm:gap-5 pc:gap-8 bg-white rounded-2xl border border-solid border-cl-dreamless-sleep/10 shadow-xl">
+            <img
+              class="max-w-full h-auto"
+              src="./assets/images/quota-protest.png"
+              alt="Quota Movement Protest" />
+
+            <div class="flex flex-col items-start gap-4">
+              <div
+                class="w-fit px-4 py-[0.62rem] flex items-center gap-2 bg-cl-dreamless-sleep/5 rounded-lg">
+                <img
+                  class="size-7"
+                  src="./assets/icons/coin.png"
+                  alt="Dollar coin" />
+                <span class="donation-amount">205000</span>
+                BDT
+              </div>
+              <h2
+                class="donation-card-title text-[1.25rem] leading-[1.875rem] font-bold text-cl-dreamless-sleep">
+                Aid for Injured in the Quota Movement
+              </h2>
+              <p
+                class="mb-2 text-left text-[1rem] leading-[1.625rem] text-cl-dreamless-sleep/70 font-light">
+                The recent Quota movement has resulted in numerous injuries and
+                significant hardship for many individuals. Your support is
+                crucial in providing medical assistance, rehabilitation, and
+                necessary supplies to those affected. By contributing, you help
+                ensure that injured individuals receive the care and support
+                they need during this challenging time. Every donation plays a
+                vital role in alleviating their suffering and aiding in their
+                recovery. Please consider making a donation to support these
+                brave individuals in their time of need.
+              </p>
+              <input
+                type="text"
+                placeholder="Write Donation Amount"
+                class="donation-amount-input da-input da-input-bordered rounded-lg w-full h-[3.5rem]" />
+              <button
+                class="donate-btn da-btn no-animation w-full h-[3.5625rem] rounded-lg text-[1.25rem] leading-[1.563rem] font-semibold bg-cl-inchworm text-cl-dreamless-sleep hover:bg-cl-inchworm/70 hover:border-cl-dreamless-sleep/30">
+                Donate Now
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Donation History -->
+      <section id="history-section" class="hidden space-y-6 p-4"></section>
+
+      <!-- Confirmation Modal -->
+      <dialog id="success-modal" class="da-modal">
+        <div
+          class="da-modal-box max-w-[36.5rem] flex flex-col items-center gap-8">
+          <h3 class="text-3xl sm:text-5xl font-bold">Congrates!</h3>
+          <img
+            class="size-12"
+            src="./assets/icons/coin.png"
+            alt="Dollar coin" />
+          <p class="text-center text-[1.25rem] leading-[1.625rem]">
+            You Have Donated for Humankind
+          </p>
+          <p class="text-2xl sm:text-3xl font-bold">Successfully</p>
+          <div class="da-modal-action">
+            <button
+              id="close-success-modal"
+              class="da-btn no-animation hover:bg-cl-inchworm/70 hover:border-cl-dreamless-sleep/30">
+              close confirmation
+            </button>
+          </div>
+        </div>
+      </dialog>
+    </main>
+    <footer class="bg-cl-ultra-pure-white h-28 mt-auto"></footer>
+    <script src="./assets/js/main.js"></script>
+  </body>
+</html>
