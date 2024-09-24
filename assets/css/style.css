@@ -2153,23 +2153,3 @@ body {
     line-height: 1.75rem;
   }
 }
-
-@media (min-width: 1024px) {
-  .lg\:flex-row {
-    flex-direction: row;
-  }
-}
-
-@media (min-width: 1170px) {
-  .pc\:mt-20 {
-    margin-top: 5rem;
-  }
-
-  .pc\:gap-8 {
-    gap: 2rem;
-  }
-
-  .pc\:p-8 {
-    padding: 2rem;
-  }
-}
