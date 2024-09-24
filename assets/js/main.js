@@ -12,24 +12,24 @@ window.addEventListener('scroll', function () {
 });
 
 // Donation and History Button Toggle
-const donationBtn = document.getElementById('donation-btn');
-const historyBtn = document.getElementById('history-btn');
+const donationBtn = document.getElementById('donation-button');
+const historyBtn = document.getElementById('history-button');
 const donationHistoryBtnContainer = document.getElementById(
-  'donation-history-btn-container'
+  'donation-history-button-container'
 );
 donationHistoryBtnContainer.addEventListener('click', function (event) {
   if (event.target === historyBtn) {
-    historyBtn.classList.remove('donation-history-btn-inactive');
-    historyBtn.classList.add('donation-history-btn-active');
-    donationBtn.classList.remove('donation-history-btn-active');
-    donationBtn.classList.add('donation-history-btn-inactive');
+    historyBtn.classList.remove('donation-history-button-inactive');
+    historyBtn.classList.add('donation-history-button-active');
+    donationBtn.classList.remove('donation-history-button-active');
+    donationBtn.classList.add('donation-history-button-inactive');
     document.getElementById('donation-section').classList.add('hidden');
     document.getElementById('history-section').classList.remove('hidden');
   } else if (event.target === donationBtn) {
-    donationBtn.classList.remove('donation-history-btn-inactive');
-    donationBtn.classList.add('donation-history-btn-active');
-    historyBtn.classList.remove('donation-history-btn-active');
-    historyBtn.classList.add('donation-history-btn-inactive');
+    donationBtn.classList.remove('donation-history-button-inactive');
+    donationBtn.classList.add('donation-history-button-active');
+    historyBtn.classList.remove('donation-history-button-active');
+    historyBtn.classList.add('donation-history-button-inactive');
     document.getElementById('history-section').classList.add('hidden');
     document.getElementById('donation-section').classList.remove('hidden');
   } else {
